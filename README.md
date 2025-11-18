@@ -1,16 +1,58 @@
-# React + Vite
+# React Card Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet flexible React app that demonstrates how to build reusable Card components for displaying content like titles, descriptions, and images. Great for learning component structure, props, and styling in React.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)  
+- [Demo](#demo)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Running the App](#running-the-app)  
+- [Project Structure](#project-structure)  
+- [Usage](#usage)  
+- [Customizing the Card](#customizing-the-card)  
+- [Future Improvements](#future-improvements)  
+- [Contributing](#contributing)  
+- [License](#license)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Reusable **Card** component accepting props (e.g. title, subtitle, image)  
+- Responsive layout  
+- Lightweight and easy to understand — ideal for beginners
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+*(If you have a working deployment, you can link it here — otherwise this is optional)*  
+Live preview: `http://your-demo-url.com`  
+
+---
+
+## Tech Stack
+
+- React  
+- JavaScript (ES6+)  
+- CSS / Styled Components (or whichever styling you used)  
+- Create React App (or your build tool)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** (v14 or above) and **npm** or **yarn** installed on your machine.
+
+### Installation
+
+1. Clone the repository  
+
+   ```bash
+   git clone https://github.com/iemashwani/React-Card-Mini-Project.git
